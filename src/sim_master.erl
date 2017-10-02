@@ -83,12 +83,6 @@ load(Key, Module, St0) ->
     luerl:set_table1(Lk, T, St2).
 
 start_ship(I, Xsize, Ysize, St) ->
-    if I rem 8 =:= 0 ->
-        io:format("unit type node~n");
-       I rem 1 =:= 0 ->
-        io:format("unit type imp~n")
-    end,
-    io:format("spawn imp ~p \n",[I]),
     %% Spread out the ships over the whole space.
     X = random:uniform(Xsize) - 1,
     Y = random:uniform(Ysize) - 1,
