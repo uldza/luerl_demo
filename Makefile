@@ -1,5 +1,5 @@
 PROJECT = luerl_demo
-PROJECT_DESCRIPTION = Luerl by example demo show room.
+PROJECT_DESCRIPTION = Luerl by example tutorial demo
 PROJECT_VERSION = 0.1.0
 DEPS = lager luerl esdl2
 dep_esdl2 = git https://github.com/ninenines/esdl2
