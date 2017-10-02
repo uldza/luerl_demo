@@ -2,6 +2,7 @@ PROJECT = luerl_demo
 PROJECT_DESCRIPTION = Luerl by example demo show room.
 PROJECT_VERSION = 0.1.0
 DEPS = lager luerl esdl2
+dep_esdl2 = git https://github.com/ninenines/esdl2
 ERLC_OPTS = +debug_info
 include erlang.mk
 # trying to ident with 4 spaces here.
