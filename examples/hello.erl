@@ -1,6 +1,6 @@
 #!/usr/bin/env escript
 %% -*- erlang -*-
-%%! -smp enable -sname hello -pa ../_rel/luerl_demo_release/lib/*/ebin
+%%! -smp enable -sname hello -pa ../deps/*/ebin ../ebin
 main(_) ->
     io:format("..and now for something completely different!\n",[]),
     % do some lua
