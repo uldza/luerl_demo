@@ -1,9 +1,6 @@
-%% Some useful shell commands for the chaotic multiverse simulator.
-
 -module(user_default).
 
 -export([start/3,start_run/1,stop_run/0]).
--export([print/1,binary_print/1]).
 -export([do_ship/2,do_ship/3,do_ship/4]).
 -export([set_ships/2,set_ships/3,set_ships/4]).
 -export([new_sim/0]).
@@ -16,12 +13,6 @@ start_run(T) ->
 
 stop_run() ->
     sim_master:stop_run().
-
-print(T) ->
-    io:format("~p\n", [T]).
-
-binary_print(T) ->
-    io:format("~w\n", [T]).
 
 %% do_ship(Index, Command)
 %% do_ship(Index, Command, Arg)
