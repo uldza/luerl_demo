@@ -1,5 +1,5 @@
 # luerl_demo
-Hello world from official [examples](https://github.com/rvirding/luerl/tree/develop/examples) plus additional spaceship demo adventures.
+Code from official [examples](https://github.com/rvirding/luerl/tree/develop/examples) plus additional spaceship demo adventures.
 
 ### Installation
 `git clone https://github.com/nonsensews/luerl_demo.git`
