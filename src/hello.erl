@@ -1,7 +1,5 @@
 %% File    : hello.erl
 %% Purpose : Brief demonstration of Luerl basics.
-%% Use     $ erlc hello.erl && erl -pa ./ebin -s hello run -s init stop -noshell
-%% Or      $ make hello
 
 -module(hello).
 -export([run/0]).
