@@ -10,7 +10,7 @@ run() ->
     % execute a string
     luerl:do("print(\"Hello, Robert!\")"),
     % execute a file
-    luerl:dofile("../world.lua"),
+    luerl:dofile("./world.lua"),
     % separately parse, then execute
     State0 = luerl:init(),
     {ok, Chunk, State1} = luerl:load("print(\"Hello, Chunk!\")", State0),
